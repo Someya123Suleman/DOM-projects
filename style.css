@@ -1,0 +1,53 @@
+html {
+  margin: 0;
+}
+#nav{
+    background-color: aquamarine;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin: 0;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav a:hover{
+    color: blue;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
