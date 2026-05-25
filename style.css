@@ -1,7 +1,5 @@
-html {
-  margin: 0;
-}
-#nav{
+
+nav{
     background-color: aquamarine;
     padding: 15px 20px;
 
@@ -11,43 +9,59 @@ html {
 
     margin: 0;
 }
-#nav a{
+nav a{
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-weight: bold;
 }
 
-#nav a:hover{
+nav a:hover{
     color: blue;
 }
+.container {
+  width: 575px;
+  height: 825px;
 
-span {
-  display: block;
+  background-color: #797978;
+  padding-left: 30px;
 }
-.canvas {
-  margin: 100px auto 100px;
-  width: 80%;
-  text-align: center;
-}
-
-.button {
-  width: 100px;
-  height: 100px;
-  border: solid black 2px;
-  display: inline-block;
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
 }
 
-#grey {
-  background: grey;
+#weight-guide {
+  margin-left: 75px;
+  margin-top: 25px;
 }
 
-#white {
-  background: white;
+#results {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 20px;
+  color: rgb(241, 241, 241);
 }
-#blue {
-  background: blue;
+
+button {
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  background-color: #fff;
+  padding: 1px 30px;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+
+  font-size: 25px;
 }
-#yellow {
-  background: yellow;
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+  
 }
